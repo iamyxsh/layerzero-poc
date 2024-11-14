@@ -1,0 +1,22 @@
+{
+  "name": "layerzero-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "forge test --watch -vvv",
+    "test": "forge test -vvv",
+    "install": "pnpm install && forge install",
+    "hardhat:deploy": "npx hardhat run script/hardhat/00_deploy.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hardhat": "^2.22.15",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
